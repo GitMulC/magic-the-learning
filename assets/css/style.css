@@ -18,10 +18,15 @@ h1, h2, h3 {
     color: #000000;
 }
 
+/* Menu Bar & Logo */
+
 #logo {
     text-decoration: none;
     float: left;
     text-align: center;
+    padding-top: 9px;
+    background-color: #414141;
+    color: #d17947;
 }
 
 #menu-bar {
