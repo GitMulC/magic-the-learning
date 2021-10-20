@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,32 +11,64 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Magic: The Learning</title>
 </head>
+
 <body>
-    <form action="post" id="usrform">
+    <!-- header & nav -->
+    <header>
+        <nav>
+            <a href="index.html" id="logo">
+                <h1>Magic: The Learning</h1>
+            </a>
+            <ul id="menu-bar">
+                <li>
+                    <a href="index.html">
+                        <h3>What is Magic?</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="anatomyofacard.html">
+                        <h3>Magic Cards</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="buildyourfirstdeck.html">
+                        <h3>Decks</h3>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form action="confirmation.html" id="usrform">
         <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" required><br>
         <label for="email-add">Email Address:</label><br>
-        <input type="email" id="email-add" name="email-add">
+        <input type="email" id="email-add" name="email-add" required><br>
+        <textarea name="question" id="question" cols="30" rows="10" placeholder="Submit your Magic: The Gathering Question here..." required></textarea>
     </form>
-    <textarea name="question" id="usrform" cols="30" rows="10">Submit your Magic: The Gathering Question here...</textarea>
 
     <footer>
         <h3 id="footer-title">Find us on social media for more Magic: The Learning</h3>
         <ul id="social-media">
             <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></i></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i
+                        class="fab fa-facebook-square"></i></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fab fa-instagram-square"></i></a>
             </li>
             <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
             </li>
         </ul>
         <h3>Any further questions on Magic: The Gathering submit your question <a href="form.html">here!</a></h3>
     </footer>
 
-<!--font awesome script-->
+    <!--font awesome script-->
     <script src="https://kit.fontawesome.com/b6e8d9e3d3.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
