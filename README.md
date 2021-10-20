@@ -108,10 +108,14 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- Image of Korvold, Fae-Cursed King taken from [Scryfall] https://scryfall.com/card/eld/329/korvold-fae-cursed-king
+- Image of Korvold, Fae-Cursed King taken from [Scryfall](https://scryfall.com/card/eld/329/korvold-fae-cursed-king)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Grey background image taken from [Unsplash] (https://unsplash.com/photos/UjupleczBOY)
-- Magic logo image taken from [Pinterest] (https://www.pinterest.ie/pin/584834701587956408/)
+- Grey background image taken from [Unsplash](https://unsplash.com/photos/UjupleczBOY)
+- Magic logo image taken from [Pinterest](https://www.pinterest.ie/pin/584834701587956408/)
+- SVG icons borrowed from [andrewgioia/mana](https://github.com/andrewgioia/mana)
+- SVG filter borrowed from [codepen.io](https://codepen.io/sosuke/pen/Pjoqqp)
+- Photopea used for image editing [photopea](https://www.photopea.com/)
+- Magic image used for background wallpaper [imgbb.com](https://i.ibb.co/VSYQHPd/magic.png)
 
 ### Media
 
