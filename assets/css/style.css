@@ -80,7 +80,6 @@ img {
 }
 
 #menu-bar li {
-    display: inline-block;
     float: left;
     text-align: center;
     list-style-type: none;
