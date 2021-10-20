@@ -65,7 +65,6 @@ img {
     text-align: center;
     padding-top: 9px;
     padding-bottom: 9px;
-    margin-left: 1%;
     background-color: #414141;
     color: #d17947;
     border-style: solid;
@@ -73,16 +72,19 @@ img {
 }
 
 #menu-bar {
-    margin-right: 1%;
     padding: 0;
     overflow: hidden;
     background-color: #414141;
     vertical-align: top;
+    text-align: center;
 }
 
 #menu-bar li {
+    display: inline-block;
     float: left;
+    text-align: center;
     list-style-type: none;
+    padding: 0px;
 }
 
 #menu-bar ul > li > a {
@@ -140,4 +142,59 @@ footer {
     border-color: #d17947;
     border-width: 0 0 10px 0;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    ul, ol, p {
+        margin: 0%;
+    }
+
+    #menu-bar {
+        display: inline-block;
+    }
+
+    #logo {
+        text-align: justify;
+    }
+
+@media screen and (max-width: 950px) {
+    ul, ol, p {
+        margin: 0%;
+    }
+
+    #menu-bar {
+        display: inline-block;
+    }
+
+    #logo {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    ul, ol, p {
+        margin: 0%;
+    }
+
+    #menu-bar {
+        display: inline-block;
+    }
+
+    #logo {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    ul, ol, p {
+        margin: 10%;
+    }
+
+    #menu-bar {
+        display: inline-block;
+    }
+
+    #logo {
+        text-align: justify;
+    }
 }
