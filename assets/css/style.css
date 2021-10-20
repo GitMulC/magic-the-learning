@@ -143,6 +143,14 @@ footer {
     border-radius: 20px;
 }
 
+/* Form styles */
+
+form, textarea {
+    text-align: center;
+}
+
+/*Media queries */
+
 @media screen and (max-width: 1200px){
     ul, ol, p {
         margin: 0%;
