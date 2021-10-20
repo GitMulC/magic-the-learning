@@ -104,6 +104,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 - Code used for nav bar styling: https://stackoverflow.com/questions/11224069/how-to-place-a-div-at-top-center-position-of-a-page-using-css/48497326
 - Used Font Awesome CDN link from Love Running repository: https://github.com/GitMulC/love-running
+- Code for HR style https://css-tricks.com/examples/hrs/
 
 ### Content 
 
