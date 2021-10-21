@@ -63,6 +63,11 @@ img {
     padding: 10px;
 }
 
+.rarity {
+    display: inline-block;
+    margin-left: 18em;
+}
+
 
 /* Menu Bar & Logo */
 header {
