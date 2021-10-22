@@ -38,13 +38,18 @@
             </ul>
         </nav>
     </header>
-    <form action="confirmation.html" id="usrform">
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname" required><br>
-        <label for="email-add">Email Address:</label><br>
-        <input type="email" id="email-add" name="email-add" required><br>
-        <textarea name="question" id="question" cols="30" rows="10" placeholder="Submit your Magic: The Gathering Question here..." required></textarea>
-    </form>
+    <section>
+        <form action="confirmation.html" id="usrform">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Mr Magic" required><br>
+            <label for="email-add">Email Address:</label><br>
+            <input type="email" id="email-add" name="email-add" placeholder="magic@thegathering.com" required><br>
+            <label for="question">Your question:</label><br>
+            <textarea name="question" id="question" cols="30" rows="10"
+                placeholder="Submit your Magic: The Gathering question here..." required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
 
     <footer>
         <h3 id="footer-title">Find us on social media for more Magic: The Learning</h3>
