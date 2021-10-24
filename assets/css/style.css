@@ -30,17 +30,33 @@ h4 {
     text-align: center;
 }
 
-p {
+/* section {
+    background-color: rgba(0,0,0,0.5);
+    padding: 2em;
+} */
+
+p, ol {
     text-align: justify;
     margin: 0px 300px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 2em;
 }
 
-ul,
-ol {
+ ul {
     text-align: justify;
     margin: 0px 300px;
+ }
+
+ .helplinks {
+    background-color: rgba(0,0,0,0.5);
+    padding: 2em;
+    list-style-type: none;
 }
 
+ /* a {
+    text-align: justify;
+    margin: 0px 300px;
+ } */
 
 /* Images */
 
@@ -66,6 +82,50 @@ img {
     margin-left: 18em;
 }
 
+.white {
+    width: 24px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    filter: invert(98%) sepia(3%) saturate(467%) hue-rotate(358deg) brightness(103%) contrast(96%);
+}
+
+.blue {
+    width: 24px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    filter: invert(27%) sepia(98%) saturate(777%) hue-rotate(175deg) brightness(102%) contrast(100%);
+}
+
+.black {
+    width: 24px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(338deg) brightness(91%) contrast(109%);
+}
+
+.red {
+    width: 24px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    filter: invert(17%) sepia(83%) saturate(4167%) hue-rotate(348deg) brightness(86%) contrast(90%);
+}
+
+.green {
+    width: 24px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    filter: invert(14%) sepia(90%) saturate(7498%) hue-rotate(162deg) brightness(93%) contrast(101%);
+}
 
 /* Menu Bar & Logo */
 header {
