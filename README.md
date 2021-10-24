@@ -13,9 +13,15 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
+- __Index Page__
+
+- Main page of the site. This serves as a general introduction to Magic: The gathering as a game.
+- The purpose of this page is to get the user to learn and familiarise themselves with the critical concepts of magic.
+- Useful links are also utlisied to help the user find out more about Magic: The Gathering and the larger community by themselves.
+
 - __Menu Bar__
 
-  - Featured on all pages, contains logo and links to navigate easily around the site.
+  - Featured on all pages, contains the logo (Magic: The Learning header) and links to navigate easily around the site.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
