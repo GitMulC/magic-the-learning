@@ -24,41 +24,34 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all pages, contains the logo (Magic: The Learning header) and links to navigate easily around the site.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
+- __Footer__
+
+  - Social media links and a link to a form are found on the footer.
+  - The social media icons will bring the user to its specific social media platform. This is so users can connect to the site on their platfomr of choice.
+  - It is found on the bottom of every page.
+
+- __Ask a question about Magic__
+
+  - The form (linked in the footer) lets submit any question about Magic: The Gathering to the website.
+  - The user gives their name and email and question, and then the website will respond with an answer to their question.
+  - This page is to help the user understand any other concepts about magic not found on this website.
+
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
 - __Antomy of a card__
 
   - This page contains an example card labelled and segmented into separate images throughout the page.
   - Its purpose is to teach the user about magic by explaining each aspect of a magic card.
+  - Through explaining each aspect of the card more of the game should become clear to the user.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Format & Decks page__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - Explaining some of the formats in magic will serve as an introduction on deck building. Once they are familiar with some formats the user should be ready to build their first deck. 
+  - The Build your first deck section outlines the basics of deck building, how many lands to include, how many creatures, instants or sorceries should be in your deck.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -114,19 +107,16 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- Image of Korvold, Fae-Cursed King taken from [Scryfall](https://scryfall.com/card/eld/329/korvold-fae-cursed-king)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Grey background image taken from [Unsplash](https://unsplash.com/photos/UjupleczBOY)
+
+### Media
+
+- Image of Korvold, Fae-Cursed King taken from [Scryfall](https://scryfall.com/card/eld/329/korvold-fae-cursed-king)
 - Magic logo image taken from [Pinterest](https://www.pinterest.ie/pin/584834701587956408/)
 - SVG icons borrowed from [andrewgioia/mana](https://github.com/andrewgioia/mana)
 - SVG filter borrowed from [codepen.io](https://codepen.io/sosuke/pen/Pjoqqp)
 - Photopea used for image editing [photopea](https://www.photopea.com/)
 - Magic image used for background wallpaper [imgbb.com](https://i.ibb.co/VSYQHPd/magic.png)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
