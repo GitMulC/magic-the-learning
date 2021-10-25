@@ -133,6 +133,15 @@ img {
     filter: invert(14%) sepia(90%) saturate(7498%) hue-rotate(162deg) brightness(93%) contrast(101%);
 }
 
+.tap {
+    width: 24px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    filter: invert(98%) sepia(3%) saturate(467%) hue-rotate(358deg) brightness(103%) contrast(96%);
+}
+
 /* Menu Bar & Logo */
 header {
     width: 100%;
