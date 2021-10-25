@@ -182,7 +182,7 @@ header {
 /* Footer */
 
 footer {
-    height: 160px;
+    height: auto;
     background-color: #0f0f0f;
     bottom: 0;
     width: 100%;
