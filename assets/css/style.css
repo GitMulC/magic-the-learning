@@ -47,6 +47,10 @@ p, ol {
     padding: 2em;
 }
 
+.deck-tips > li {
+    padding: 6px 0px;
+}
+
  ul {
     text-align: justify;
     margin: 0px 300px;
@@ -56,6 +60,10 @@ p, ol {
     background-color: rgba(0,0,0,0.5);
     padding: 2em;
     list-style-type: none;
+}
+
+.helplinks > li {
+    padding: 6px 0px;
 }
 
 
