@@ -17,9 +17,9 @@ body {
     background-color: black;
 }
 
-body section:not(:first-child) {
+/* body section:not(:first-child) {
     margin: 100px;
-}
+} */
 
 h1,
 h2,
@@ -30,6 +30,10 @@ h4 {
     text-align: center;
     /* margin: 0px 300px;
     background-color: rgba(0,0,0,0.5); */
+}
+
+section {
+    padding: 30px 0px;
 }
 
 
@@ -93,7 +97,12 @@ img {
 
 .rarity {
     display: inline-block;
-    margin-left: 18em;
+    margin-left: 220px;
+}
+
+.rarity-1 {
+    display: inline-block;
+    padding: 63px 130px;
 }
 
 .white {
@@ -292,6 +301,19 @@ footer {
     color: rgb(211, 32, 42);
 }
 
+/* Thank you page */
+
+.thank-you {
+    text-align: center;
+    margin: 300px 300px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 2em;
+}
+
+.logo-thank-you {
+    font-size: 25px;
+}
+
 /*Media queries */
 
 @media screen and (max-width: 1090px) {
@@ -318,5 +340,27 @@ footer {
 
     .deck-tips {
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section:not(:first-child) {
+        margin: auto;
+    }
+
+    img {
+        width: 55%;
+    }
+
+    .rarity {
+        display: inline-block;
+    margin-left: 39px;
+    width: 30%;
+    }
+
+    .rarity-1 {
+        display: inline-block;
+        width: 50%;
+        padding: 0px;
     }
 }
