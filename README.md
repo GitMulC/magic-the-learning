@@ -5,9 +5,35 @@ In this section, you will include one or two paragraphs providing an overview of
 Magic: The Learning is a website that is designed to help users understand and play the trading card game Magic: The Gathering. It aims to do this by explaining what Magic: The Gathering is,
 by describing and illustrating what are its cards and how do they function, explaining the best way to build a deck and by talking about all its different formats. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](documentation/testing/mockup.png)
 
-## Features 
+## User Stories
+
+- As a user...... I want to......
+
+## UX
+
+Paragraph about design choices. Not too much detail as you will have sub categories.
+
+### Colour Scheme
+
+Describe colours. `#ffffff` 
+
+![Color scheme](documentation/testing/colours.png)
+
+### Typography
+
+Eczar & Rubick why you use them.
+
+[Eczar](https://fonts.google.com/specimen/Eczar)
+
+[Rubik](https://fonts.google.com/specimen/Rubik)
+
+### Wireframes
+
+Screenshots of wireframes. 
+
+## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -19,10 +45,14 @@ In this section, you should go over the different parts of your project, and des
 - The purpose of this page is to get the user to learn and familiarise themselves with the critical concepts of magic.
 - Useful links are also utlisied to help the user find out more about Magic: The Gathering and the larger community by themselves.
 
+  - ![](documentation/testing/)
+
 - __Menu Bar__
 
   - Featured on all pages, contains the logo (Magic: The Learning header) and links to navigate easily around the site.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+  - ![](documentation/testing/)
 
 - __Footer__
 
@@ -30,13 +60,15 @@ In this section, you should go over the different parts of your project, and des
   - The social media icons will bring the user to its specific social media platform. This is so users can connect to the site on their platfomr of choice.
   - It is found on the bottom of every page.
 
+  - ![](documentation/testing/)
+
 - __Ask a question about Magic__
 
   - The form (linked in the footer) lets submit any question about Magic: The Gathering to the website.
   - The user gives their name and email and question, and then the website will respond with an answer to their question.
   - This page is to help the user understand any other concepts about magic not found on this website.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  - ![](documentation/testing/)
 
 - __Antomy of a card__
 
@@ -44,22 +76,27 @@ In this section, you should go over the different parts of your project, and des
   - Its purpose is to teach the user about magic by explaining each aspect of a magic card.
   - Through explaining each aspect of the card more of the game should become clear to the user.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  - ![](documentation/testing/)
 
 - __Format & Decks page__
 
   - Explaining some of the formats in magic will serve as an introduction on deck building. Once they are familiar with some formats the user should be ready to build their first deck. 
   - The Build your first deck section outlines the basics of deck building, how many lands to include, how many creatures, instants or sorceries should be in your deck.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - ![](documentation/testing/)
 
 ### Features Left to Implement
 
 - Another feature idea
+
+## Technologies
+
+- [HTML](wikipediapg) - Explain why html used, used for main content & markup language.
+- [CSS](wikipediapg) - Explain its use. Used for layout & styles.
+- [Git](gits websites) - Used for version control
+- [GitHub](github website) - Used for storing code online securely.
+- [Gitpod](gitpod website) - Used as cloud based IDE to write code.
+- Balsamiq
 
 ## Testing 
 
@@ -72,12 +109,29 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### Validator Testing 
+### Code Validation
+
+Add screenshots for EACH PAGE after validation! html & css
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Browser Compatibility
+
+- Screenshots of all different browsers (min 3)
+- Chrome desktop
+- Safari Tablet different pg
+- Firefox Mobile different pg
+
+### Responsiveness
+
+- Screen shots of different sizes, desktop, tablet and mobile. Re-use images!!!!
+
+### Tested User Stories
+
+- Copy user stories from above, re-use screenshots from features section.
 
 ### Unfixed Bugs
 
@@ -85,15 +139,21 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the [GitHub repository](https://github.com/GitMulC/magic-the-learning), navigate to the Settings tab.
+    * From the Settings tab, scroll down until you see the 'Pages' button on the left.
+    * From the Source section drop-down menu, select the `Main` branch.
+    * Once the `Main` branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The live link can be found here - https://gitmulc.github.io/magic-the-learning
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+### Local Deployment
 
+To make a local copy of this project, you can clone it by typing the following in your IDE terminal:
+
+- `git clone https://github.com/GitMulC/magic-the-learning.git`
+
+Alternatively, if using Gitpod, you can click the green Gitpod button, or use [this link](https://gitpod.io/#https://github.com/GitMulC/magic-the-learning) 
 
 ## Credits 
 
@@ -108,6 +168,9 @@ You can break the credits section up into Content and Media, depending on what y
 ### Content 
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Coolors.co
+- ami.responsive.is
+- mspaint
 
 ### Media
 
@@ -121,7 +184,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
+### Acknowledgements
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
