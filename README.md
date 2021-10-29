@@ -41,7 +41,11 @@ Rubik was the other font used throughout the site, in the main body of each sect
 
 ### Wireframes
 
-Screenshots of wireframes. 
+![Wireframe Page 1](documentation/testing/wirframe-pg-1.PNG)
+
+![Wireframe Page 2](documentation/testing/wireframe=pg-2.png)
+
+![Wireframe Page 3](documentation/testing/wireframe-pg-3.PNG)
 
 ## Features
 
@@ -55,14 +59,14 @@ In this section, you should go over the different parts of your project, and des
 - The purpose of this page is to get the user to learn and familiarise themselves with the critical concepts of magic.
 - Useful links are also utlisied to help the user find out more about Magic: The Gathering and the larger community by themselves.
 
-  - ![](documentation/testing/)
+  - ![Index Page](documentation/testing/index-pg.png)
 
 - __Menu Bar__
 
   - Featured on all pages, contains the logo (Magic: The Learning header) and links to navigate easily around the site.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-  - ![](documentation/testing/)
+  - ![Menu Bar](documentation/testing/menu-bar.png)
 
 - __Footer__
 
@@ -70,7 +74,7 @@ In this section, you should go over the different parts of your project, and des
   - The social media icons will bring the user to its specific social media platform. This is so users can connect to the site on their platfomr of choice.
   - It is found on the bottom of every page.
 
-  - ![](documentation/testing/)
+  - ![Footer](documentation/testing/footer.png)
 
 - __Ask a question about Magic__
 
@@ -78,7 +82,7 @@ In this section, you should go over the different parts of your project, and des
   - The user gives their name and email and question, and then the website will respond with an answer to their question.
   - This page is to help the user understand any other concepts about magic not found on this website.
 
-  - ![](documentation/testing/)
+  - ![Magic Question Page](documentation/testing/question.png)
 
 - __Antomy of a card__
 
@@ -86,20 +90,21 @@ In this section, you should go over the different parts of your project, and des
   - Its purpose is to teach the user about magic by explaining each aspect of a magic card.
   - Through explaining each aspect of the card more of the game should become clear to the user.
 
-  - ![](documentation/testing/)
+  - ![Anatomy of a Card Page](documentation/testing/anatomy-pg.png)
 
 - __Format & Decks page__
 
   - Explaining some of the formats in magic will serve as an introduction on deck building. Once they are familiar with some formats the user should be ready to build their  first deck. 
   - The Build your first deck section outlines the basics of deck building, how many lands to include, how many creatures, instants or sorceries should be in your deck.
 
-  - ![](documentation/testing/)
+  - ![Formats & Deck Page](documentation/testing/format-and-deck.png)
 
 - __Confirmation page__ 
 
   - Page that you are brought to after submitting your magic question.
+  - Will bring you back to the index page after a short period of time.
 
-  - ![](documentation/testing/)
+  - ![Confirmation Page](documentation/testing/confirmation.png)
 
 ### Features Left to Implement
 
