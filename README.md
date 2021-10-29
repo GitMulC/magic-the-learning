@@ -2,30 +2,40 @@
 
 In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
 
-Magic: The Learning is a website that is designed to help users understand and play the trading card game Magic: The Gathering. It aims to do this by explaining what Magic: The Gathering is,
-by describing and illustrating what are its cards and how do they function, explaining the best way to build a deck and by talking about all its different formats. 
+Magic: The Learning is a website that is designed to help users understand and play the trading card game Magic: The Gathering. It aims to do this by explaining what Magic: The Gathering is, by describing and illustrating what are its cards and how do they function, explaining the best way to build a deck and by talking about all its different formats. 
 
 ![Responsive Mockup](documentation/testing/mockup.png)
 
 ## User Stories
 
 - As a user...... I want to......
+- As a user I want to be able to play the trading card game Magic: The Gathering. I also want to be able to understand the core concepts of this game. 
+- As a user I want to know the layout of magic cards, and to understand how they work ingame. 
+- As a user I would like to know how I should go about building my first deck. What type of deck I should build, and what type of game of magic I should be playing.
 
 ## UX
 
 Paragraph about design choices. Not too much detail as you will have sub categories.
 
-### Colour Scheme
+Magic: The Learning's design is meant to be as minimal and as simplistic as possible. Core concepts of Magic: The Gathering are illustrated in simple paragraphs and through illustrated and edited magic card images. The simplistic design choices were favoured as new players to magic will be the main users and so need all the information about the game laid out in simple terms.
 
-Describe colours. `#ffffff` 
+### Colour Scheme 
+
+The `#ff8800` orange colour was utilised as it is similar to the colour of the orginal Magic: The Gathering logo font. This original logo served as inspiration for the colour scheme. This colour was used in headings, menu bar, footer and in the logo.
+
+A white colour `#ffffff` was used for most of the text on the site, primarily for the `<p>` sections. It was also used in the footer for social media icons and to highlight the form link.
+
+The black colour `#f0f0f0` was used as a background colour primarily. It is found in the header and footer as a background colour and serves as an excellent contrast for the orange `#ff8800` colour. 
 
 ![Color scheme](documentation/testing/colours.png)
 
-### Typography
+### Typography 
 
-Eczar & Rubick why you use them.
+The eczar font looks similar to the belern font used in Magic: The Gathering products and logos. Since the belern is a copyrighted font and cannot be used outside of Magic: The Gathering products, eczar was the font selected as most appropriate for the logo, titles, header and footer. 
 
 [Eczar](https://fonts.google.com/specimen/Eczar)
+
+Rubik was the other font used throughout the site, in the main body of each section. It's simple and elegant structure was what made it suitable to use as a font, and was important when implementing a simplistic design for the site.
 
 [Rubik](https://fonts.google.com/specimen/Rubik)
 
@@ -80,8 +90,14 @@ In this section, you should go over the different parts of your project, and des
 
 - __Format & Decks page__
 
-  - Explaining some of the formats in magic will serve as an introduction on deck building. Once they are familiar with some formats the user should be ready to build their first deck. 
+  - Explaining some of the formats in magic will serve as an introduction on deck building. Once they are familiar with some formats the user should be ready to build their  first deck. 
   - The Build your first deck section outlines the basics of deck building, how many lands to include, how many creatures, instants or sorceries should be in your deck.
+
+  - ![](documentation/testing/)
+
+- __Confirmation page__ 
+
+  - Page that you are brought to after submitting your magic question.
 
   - ![](documentation/testing/)
 
