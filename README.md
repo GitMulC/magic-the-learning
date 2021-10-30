@@ -8,7 +8,6 @@ Magic: The Learning is a website that is designed to help users understand and p
 
 ## User Stories
 
-- As a user...... I want to......
 - As a user I want to be able to play the trading card game Magic: The Gathering. I also want to be able to understand the core concepts of this game. 
 - As a user I want to know the layout of magic cards, and to understand how they work ingame. 
 - As a user I would like to know how I should go about building my first deck. What type of deck I should build, and what type of game of magic I should be playing.
@@ -41,15 +40,13 @@ Rubik was the other font used throughout the site, in the main body of each sect
 
 ### Wireframes
 
-![Wireframe Page 1](documentation/testing/wirframe-pg-1.PNG)
+![Wireframe Page 1](documentation/testing/wireframe-pg-1.PNG)
 
-![Wireframe Page 2](documentation/testing/wireframe=pg-2.png)
+![Wireframe Page 2](documentation/testing/wireframe-pg-2.png)
 
 ![Wireframe Page 3](documentation/testing/wireframe-pg-3.PNG)
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
@@ -82,7 +79,7 @@ In this section, you should go over the different parts of your project, and des
   - The user gives their name and email and question, and then the website will respond with an answer to their question.
   - This page is to help the user understand any other concepts about magic not found on this website.
 
-  - ![Magic Question Page](documentation/testing/question.png)
+  - ![Magic Question Page](documentation/testing/question-magic.png)
 
 - __Antomy of a card__
 
@@ -112,12 +109,12 @@ In this section, you should go over the different parts of your project, and des
 
 ## Technologies
 
-- [HTML](wikipediapg) - Explain why html used, used for main content & markup language.
-- [CSS](wikipediapg) - Explain its use. Used for layout & styles.
-- [Git](gits websites) - Used for version control
-- [GitHub](github website) - Used for storing code online securely.
-- [Gitpod](gitpod website) - Used as cloud based IDE to write code.
-- Balsamiq
+- HyperTextMarkup Langugae (HTML) was the primary programming language used for this project. It was utilised for the main content of the website and as the standard markup language. It was also used because of its ability to be used alongside Cascading Style sheets programming language. [HTML](https://en.wikipedia.org/wiki/HTML)
+- Cascading Style Sheets (CSS) was the programming langugae used in conjunction with HTML. It was used to present the markup langugae HTML. CSS was used to put the HTML into a presentable form. [CSS](https://en.wikipedia.org/wiki/CSS)
+- Git was the technology used for version control. It is free and open sourced. [Git](https://git-scm.com/)
+- GitHub was used as a code hosting site for storing the code for this project online securely. [GitHub](https://github.com/)
+- Gitpod is a cloud based IDE which was used to write the code for this project. [Gitpod](https://www.gitpod.io/)
+- Balsamiq is a web based mockup tool that was used to create the wireframes for this project. [Balsamiq](https://balsamiq.com/)
 
 ## Testing 
 
@@ -135,9 +132,19 @@ If this section grows too long, you may want to split it off into a separate fil
 Add screenshots for EACH PAGE after validation! html & css
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Index Page Validation: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitmulc.github.io%2Fmagic-the-learning%2Findex.html)
+  ![Index Page Validation](documentation/testing/index-pg-validation.png)
+  - Anatomy Page Validation: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitmulc.github.io%2Fmagic-the-learning%2Fanatomy.html)
+  ![Anatomy Page Validation](documentation/testing/anatomy-pg-validation.png)
+  - Deck Page Validation: No errors were returned when passing through the official [W3C validator]()
+  ![Deck Page Validation](documentation/testing/deck-pg-validation.png)
+  - Form Page Validation: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitmulc.github.io%2Fmagic-the-learning%2Fdeck.html)
+  ![Form Page Validation](documentation/testing/form-pg-validation.png)
+  - Confirmation Page Validation: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitmulc.github.io%2Fmagic-the-learning%2Fconfirmation.html%3Ffname%3DConor%26email-add%3Dcmulvo%2540gmail.com%26question%3Dasda)
+  ![Confirmation Page Validation](documentation/testing/confirmation-pg-validation.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgitmulc.github.io%2Fmagic-the-learning%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  ![CSS Validation](documentation/testing/css-validation.png)
 
 ### Browser Compatibility
 
@@ -209,7 +216,7 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write a Git Commit Message 
   - Make sure to keep the messages in the imperative mood 
 
 - When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
