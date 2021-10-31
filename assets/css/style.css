@@ -66,7 +66,7 @@ ol {
     padding: 2em;
 }
 
-.deck-tips>li {
+.deck-tips > li {
     padding: 6px 0px;
 }
 
@@ -83,7 +83,7 @@ ul:not(.helplinks) {
     text-align: center;
 }
 
-.helplinks>li {
+.helplinks > li {
     padding: 6px 0px;
 }
 
@@ -263,7 +263,7 @@ footer {
     text-align: center;
 }
 
-footer>h3>a {
+footer > h3 > a {
     color: #ffffff;
 }
 
@@ -371,15 +371,15 @@ textarea.text-in {
         margin-left: 0em;
     }
 
-    section>p {
+    section > p {
         margin: auto;
     }
 
-    section>ol {
+    section > ol {
         margin: auto;
     }
 
-    section>ul {
+    section > ul {
         margin: auto;
     }
 
