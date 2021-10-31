@@ -101,7 +101,7 @@ Rubik was the other font used throughout the site, in the main body of each sect
 
 ### Features Left to Implement
 
-- Another feature idea
+- One feature which I would have liked to implement is a video tutorial on how to exactly play Magic: The Gathering. I feel this feature would further reinforce the users ability to learn and play the game.
 
 ## Technologies
 
@@ -166,7 +166,8 @@ HTML code on each page was validated using W3C validator [W3C validator](https:/
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- One unfixed bug that occured in development was on the form page, the footer element was never anchored to the bottom of the page. Many different CSS stylings were applied to this HTML element to try and fix this problem but none seemed to work. Applying the `bottom: 0;` styling in CSS did not work on the form page, but did on the other footers in each other page.
+  - ![Question Form Page](documentation/testing/bug-form.png) 
 
 ## Deployment
 
